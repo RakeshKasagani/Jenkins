@@ -2,6 +2,11 @@
 
 🧩 Part 1: Install Jenkins on Ubuntu
 
+create an instance
+<img width="631" height="205" alt="1" src="https://github.com/user-attachments/assets/3f7d5b7b-dab1-4850-a672-1763e8b23156" />
+
+
+
 Step 1: Update and upgrade system
 
 sudo apt update -y
@@ -185,4 +190,5 @@ Add the username you created
 Check appropriate permissions (e.g. build, read, configure)
 
 Click Save
+
 
