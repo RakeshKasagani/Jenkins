@@ -185,7 +185,7 @@ Under Build, click Add build step → Execute shell
 
 Add a command:
 
-echo "This is first project in build" > jenkins.txt
+echo "This is my first project in build" > jenkins.txt
 
 <img width="923" height="482" alt="24" src="https://github.com/user-attachments/assets/8b78ef26-979d-4e6a-8ad9-2c6af73ed743" />
 
@@ -199,12 +199,16 @@ Click Build Now
 
 <img width="932" height="278" alt="26" src="https://github.com/user-attachments/assets/7915d0a8-5133-460c-94cb-8d994de2469e" />
 
-This is first project in build.
+This is my first project in build.
+
 
 
 ✅ Your first job is done!
 
 You’ll see the pipeline run in stages visually.
+
+<img width="939" height="235" alt="27" src="https://github.com/user-attachments/assets/6a3219b7-82de-450e-bc95-f6a1ccb6f10a" />
+
 
 👥 Part 3: Create New Users in Jenkins
 
@@ -213,6 +217,15 @@ Step 2: Add users manually
 From Dashboard → Click Manage Jenkins → Users
 
 Click Create User
+
+<img width="953" height="458" alt="28" src="https://github.com/user-attachments/assets/fe53175f-309c-4b97-abd0-401b822496a4" />
+
+
+<img width="958" height="457" alt="29" src="https://github.com/user-attachments/assets/6d514012-6ffc-4954-aac1-8b2bd9655dd5" />
+
+<img width="953" height="478" alt="30" src="https://github.com/user-attachments/assets/8f0d66af-bbd3-40e8-a0f7-63c5dfe9db45" />
+
+
 
 Fill details:
 
@@ -239,6 +252,7 @@ Add the username you created
 Check appropriate permissions (e.g. build, read, configure)
 
 Click Save
+
 
 
 
