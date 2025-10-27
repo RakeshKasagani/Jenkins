@@ -7,15 +7,14 @@
 <img width="631" height="205" alt="1" src="https://github.com/user-attachments/assets/3f7d5b7b-dab1-4850-a672-1763e8b23156" />
 
 <img width="623" height="337" alt="2" src="https://github.com/user-attachments/assets/7cf34b94-48a1-4ebb-858e-53223127c23f" />
+
 <img width="642" height="215" alt="3" src="https://github.com/user-attachments/assets/2dc89e1c-ad7b-485a-ac3a-15fb7c08c2a3" />
+
 <img width="445" height="365" alt="4" src="https://github.com/user-attachments/assets/49d80ca2-fb63-4b55-b16e-708d0a4fa354" />
+
 <img width="947" height="391" alt="5" src="https://github.com/user-attachments/assets/d21f6274-3aa4-4720-8c8f-55759866122b" />
+
 <img width="946" height="407" alt="6" src="https://github.com/user-attachments/assets/ec9becb3-eb01-4dd4-8717-be3e27a01fb7" />
-
-
-
-
-
 
 Step 1: Update and upgrade system
 
@@ -200,6 +199,7 @@ Add the username you created
 Check appropriate permissions (e.g. build, read, configure)
 
 Click Save
+
 
 
 
