@@ -229,15 +229,18 @@ Click Create User
 
 Fill details:
 
-Username: developer1
+Username: m-fit
 
 Password: password123
 
-Full name: Developer 1
+Full name: m-fit 
 
 Email: dev1@example.com
 
 Click Create User
+
+<img width="935" height="435" alt="31" src="https://github.com/user-attachments/assets/37558556-a444-468c-bfaa-9976ed535ef8" />
+
 
 Step 3: Assign roles (optional, if using Matrix Authorization)
 
@@ -245,13 +248,20 @@ If you want to control permissions:
 
 Go to Manage Jenkins → Configure Global Security
 
-Scroll to Authorization → Matrix-based security
+Scroll to Authorization → Project-based Matrix Authorization Strategy 
 
 Add the username you created
 
 Check appropriate permissions (e.g. build, read, configure)
 
 Click Save
+
+<img width="928" height="466" alt="32" src="https://github.com/user-attachments/assets/e0b542d6-d963-45d8-8295-06e8203ccb7b" />
+
+<img width="937" height="463" alt="33" src="https://github.com/user-attachments/assets/b3f13332-ba4c-4289-b694-8bff2bdd6337" />
+
+
+
 
 
 
