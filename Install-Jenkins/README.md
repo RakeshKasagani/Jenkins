@@ -16,6 +16,11 @@
 
 <img width="946" height="407" alt="6" src="https://github.com/user-attachments/assets/ec9becb3-eb01-4dd4-8717-be3e27a01fb7" />
 
+2. Change the hostname
+
+   <img width="481" height="47" alt="7" src="https://github.com/user-attachments/assets/62dd17a0-85d0-4aa0-97c8-ec8b64bcf725" />
+
+
 Step 1: Update and upgrade system
 
 sudo apt update -y
@@ -199,6 +204,7 @@ Add the username you created
 Check appropriate permissions (e.g. build, read, configure)
 
 Click Save
+
 
 
 
