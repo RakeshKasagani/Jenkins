@@ -94,6 +94,7 @@ By default Jenkins runs on port 8080.
 Allow Jenkins through the firewall:
 
 sudo ufw allow 8080
+
 sudo ufw allow OpenSSH
 
 Step 7: Access Jenkins Web UI
@@ -103,9 +104,13 @@ Open a browser and go to:
 http://<your-server-public-ip>:8080
 
 
+
 Example:
 
 http://54.234.208.154:8080
+
+<img width="959" height="481" alt="13" src="https://github.com/user-attachments/assets/bbba01d5-68f2-4e75-9f3a-fc380fa49017" />
+
 
 Step 8: Unlock Jenkins
 
@@ -113,12 +118,18 @@ Get the initial admin password:
 
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
+<img width="533" height="50" alt="14" src="https://github.com/user-attachments/assets/06534ea5-d633-4199-88f5-23a082a776b1" />
+
+<img width="920" height="468" alt="15" src="https://github.com/user-attachments/assets/91a17e72-c96a-46a1-9f88-77700a8b7220" />
 
 Copy the key and paste it into the Jenkins web page → “Unlock Jenkins”.
 
 Step 9: Install suggested plugins
 
 Choose “Install suggested plugins”
+
+<img width="915" height="465" alt="16" src="https://github.com/user-attachments/assets/2157bf1b-cacc-4e9d-90c5-a57b6f25bedb" />
+
 
 Wait for plugins to install (it may take a few minutes)
 
@@ -212,6 +223,7 @@ Add the username you created
 Check appropriate permissions (e.g. build, read, configure)
 
 Click Save
+
 
 
 
