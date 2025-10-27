@@ -137,6 +137,9 @@ Step 10: Create your first Admin User
 
 After plugin installation, Jenkins asks for an admin user:
 
+<img width="948" height="467" alt="17" src="https://github.com/user-attachments/assets/08efd228-e619-4811-a411-43a4254c3450" />
+
+
 Username: admin
 
 Password: yourpassword
@@ -155,7 +158,13 @@ You’ll see:
 Click “Start using Jenkins”.
 
 🧱 Part 2: Create Your First Jenkins Job (Pipeline or Freestyle)
+
+
 Option 1: Create a Freestyle Job (Basic)
+
+<img width="937" height="469" alt="20" src="https://github.com/user-attachments/assets/eceb57f9-79b4-41fb-a347-6a95aaa0f4ff" />
+
+<img width="932" height="470" alt="21" src="https://github.com/user-attachments/assets/0f9adc71-f83c-43fd-b67f-34bcf79a8c86" />
 
 From Jenkins Dashboard → Click “New Item”
 
@@ -166,15 +175,19 @@ Select Freestyle project
 Click OK
 
 In “Description” field → write something like:
-This is my first Jenkins job
+
+This is my first Project
+<img width="924" height="443" alt="22" src="https://github.com/user-attachments/assets/3c7e5675-5a59-4ab7-833e-b1a76d8d0fae" />
+
+<img width="820" height="441" alt="23" src="https://github.com/user-attachments/assets/ed59abd8-2695-4e52-a73f-0a5f37123aeb" />
 
 Under Build, click Add build step → Execute shell
 
 Add a command:
 
-echo "Hello, Jenkins is running successfully!"
-date
+echo "This is first project in build" > jenkins.txt
 
+<img width="923" height="482" alt="24" src="https://github.com/user-attachments/assets/8b78ef26-979d-4e6a-8ad9-2c6af73ed743" />
 
 Click Save
 
@@ -182,8 +195,11 @@ Click Build Now
 
 👉 After it runs, click Build #1 → Console Output to see:
 
-Hello, Jenkins is running successfully!
-Mon Oct 27 17:00:00 IST 2025
+<img width="929" height="469" alt="25" src="https://github.com/user-attachments/assets/a6ffba68-9919-47cc-8c5b-1c371a419e3d" />
+
+<img width="932" height="278" alt="26" src="https://github.com/user-attachments/assets/7915d0a8-5133-460c-94cb-8d994de2469e" />
+
+This is first project in build.
 
 
 ✅ Your first job is done!
@@ -223,6 +239,7 @@ Add the username you created
 Check appropriate permissions (e.g. build, read, configure)
 
 Click Save
+
 
 
 
