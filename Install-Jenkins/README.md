@@ -1,14 +1,17 @@
-Installing Jenkins on Ubuntu, Creating Your First Job, and Managing Users
+# Installing Jenkins on Ubuntu, Creating Your First Job, and Managing Users
 
 🧩 Part 1: Install Jenkins on Ubuntu
+
 Step 1: Update and upgrade system
+
 sudo apt update -y
+
 sudo apt upgrade -y
 
 Step 2: Install Java (Jenkins requires Java 11 or 17)
 
 Jenkins needs Java (OpenJDK).
-For the latest stable Jenkins, Java 17 is recommended.
+
 
 sudo apt install fontconfig openjdk-21-jre
 
@@ -182,3 +185,4 @@ Add the username you created
 Check appropriate permissions (e.g. build, read, configure)
 
 Click Save
+
