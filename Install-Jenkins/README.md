@@ -25,20 +25,24 @@ Step 1: Update and upgrade system
 
 sudo apt update -y
 
+<img width="719" height="164" alt="8" src="https://github.com/user-attachments/assets/5415e527-0401-42e0-b1ad-56ee846d3fd5" />
+
+
 sudo apt upgrade -y
 
-Step 2: Install Java (Jenkins requires Java 11 or 17)
+Step 2: Install Java (Jenkins requires Java 21)
 
 Jenkins needs Java (OpenJDK).
 
 
 sudo apt install fontconfig openjdk-21-jre
-
+<img width="637" height="182" alt="9" src="https://github.com/user-attachments/assets/bb75694c-f5ac-4cf8-99a8-536b4e074877" />
 
 Verify:
 
 java -version
 
+<img width="653" height="74" alt="10" src="https://github.com/user-attachments/assets/2d68e2a7-d434-4887-b7b3-7a40d9652230" />
 
 Expected output:
 
@@ -64,6 +68,9 @@ Step 4: Install Jenkins
 sudo apt update
 sudo apt install jenkins -y
 
+<img width="929" height="221" alt="11" src="https://github.com/user-attachments/assets/9c5f59ec-bb11-47e2-ac44-3f825b5b3001" />
+
+
 Step 5: Start and enable Jenkins
 sudo systemctl start jenkins
 sudo systemctl enable jenkins
@@ -77,6 +84,9 @@ sudo systemctl status jenkins
 You should see:
 Active: active (running)
 
+<img width="944" height="377" alt="12" src="https://github.com/user-attachments/assets/80f83d70-3d2f-415a-b042-916d7b40f70b" />
+
+
 Step 6: Adjust Firewall (if UFW is enabled)
 
 By default Jenkins runs on port 8080.
@@ -85,8 +95,6 @@ Allow Jenkins through the firewall:
 
 sudo ufw allow 8080
 sudo ufw allow OpenSSH
-sudo ufw enable
-sudo ufw status
 
 Step 7: Access Jenkins Web UI
 
@@ -204,6 +212,7 @@ Add the username you created
 Check appropriate permissions (e.g. build, read, configure)
 
 Click Save
+
 
 
 
